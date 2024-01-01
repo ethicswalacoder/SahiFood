@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from "../../assets/food-logo.png";
 import {FaCartShopping} from "react-icons/fa6";
+import DarkMode from './DarkMode';
 
 
 const Navbar = () => {
@@ -14,7 +15,9 @@ const Navbar = () => {
                     <img src={Logo} alt="SahiFood logo" className='w-10'/> Sahi Food
                 </a>
             </div>
-            <div>
+           
+            <div className='flex justify-between items-center gap-4'>
+            
                 <ul className="hidden sm:flex gap-4">
                     <li>
                         <a href="#" className='inline-block py-4 px-4 hover:text-primary'>Home</a>
@@ -30,6 +33,9 @@ const Navbar = () => {
                     Order
                     <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer"/>
                 </button>
+                <div>
+                <DarkMode/>
+                </div>
             </div>
       </div>
      </div>
