@@ -22,7 +22,7 @@ const DarkMode = () => {
       <div className="relative ">
         <img
           // src={theme === "dark" ? darkPng : lightPng}
-          src={lightPng}
+          src={darkPng}
           alt="dark"
           onClick={() =>
             setTheme((data) => (data === "dark" ? "light" : "dark"))
@@ -32,7 +32,7 @@ const DarkMode = () => {
           } `}
         />
         <img
-          src={darkPng}
+          src={lightPng}
           alt="dark"
           onClick={() =>
             setTheme((data) => (data === "dark" ? "light" : "dark"))
