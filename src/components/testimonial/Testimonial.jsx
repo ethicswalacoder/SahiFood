@@ -39,7 +39,12 @@ const Testimonial = () => {
   return (
     <>
       <div className="py-14">
-        <div className="container">
+        <div
+         data-aos="fade-up"
+         data-aos-duration= "400"
+         
+        
+        className="container">
           {/* Header Section  */}
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
